@@ -8,7 +8,7 @@ require  'scraperwiki/simple_html_dom.php';
     for($year = 2001; $year < 2011; $year++) {
     $n = 0;   
         
-        $html = scraperwiki::scrape("http://www.esmeefairbairn.org.uk/grants_made{$year}.html");
+        $html = scraperwiki::scrape("http://www.esmeefairbairn.org.uk/what-we-fund/search-grants/results/#gfind_queryinfo");
 
         
         # Use the PHP Simple HTML DOM Parser to extract <td> tags
